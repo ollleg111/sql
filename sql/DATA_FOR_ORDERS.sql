@@ -1,3 +1,4 @@
+--INSERT
 INSERT INTO ORDERS VALUES (1001, 'test1', 100, TO_DATE('2019/05/03 21:00:00','yyyy/mm/dd hh24:mi:ss'),TO_DATE('2019/05/03 22:00:00','yyyy/mm/dd hh24:mi:ss'));
 INSERT INTO ORDERS VALUES (1002, 'test2', 200, TO_DATE('2011/05/03 21:00:00','yyyy/mm/dd hh24:mi:ss'),TO_DATE('2019/05/03 22:00:00','yyyy/mm/dd hh24:mi:ss'));
 INSERT INTO ORDERS VALUES (1003, 'test3', 300, TO_DATE('2012/05/03 21:00:00','yyyy/mm/dd hh24:mi:ss'),TO_DATE('2019/05/03 22:00:00','yyyy/mm/dd hh24:mi:ss'));
