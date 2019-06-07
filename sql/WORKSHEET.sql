@@ -29,3 +29,9 @@ DATE_TO TIMESTAMP,
 MONEY_PAID NUMERIC(15,2),
 CONSTRAINT ID_CHECK CHECK (ID < 10000)
 );
+
+--05/06/2019
+
+--SELECT -column 1, -column2 FROM TABLE table_name
+--WHERE conditions
+--GROUP BY column_name
