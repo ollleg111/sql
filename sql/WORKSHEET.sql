@@ -80,7 +80,7 @@ ORDER BY PRODUCT_NAME DESC;
 SELECT * FROM ORDERS
 ORDER BY PRICE ASC;
 
-SELECT PRODUCT_NAME, SUM(PRICE) FROM ORDERS;
+
 --ERROR В ОДНОМ ЗАПРОСЕ ДВА ВЫВОДА ЗНАЧЕНИЙ ИЗ РАЗНЫХ КОЛОНКАХ (НАДО РАЗБИТЬ НА ДВА)
 
 SELECT SUM(PRICE) FROM ORDERS;
